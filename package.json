@@ -1,0 +1,25 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "typescript rest api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-Adams-81/typescript-api.git"
+  },
+  "author": "Nick Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-Adams-81/typescript-api/issues"
+  },
+  "homepage": "https://github.com/Nick-Adams-81/typescript-api#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
