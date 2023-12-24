@@ -29,5 +29,4 @@ mongoose.Promise = Promise;
 mongoose.connect(creds, {useNewUrlParser: true});
 mongoose.connection.on("error", (error: Error) => console.log(error));
 
-// mongo user: user
-// mongo password: 59lhW9RFO3rbTdQq
+
