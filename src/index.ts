@@ -5,6 +5,7 @@ const cookieParser = require("cookie-parser");
 const compression = require("compression");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const router = require("./routes");
 require("dotenv").config();
 
 const app = express();
@@ -17,6 +18,7 @@ app.use(
 app.use(compression());
 app.use(bodyParser());
 app.use(cookieParser());
+app.use("/", router())
 
 const server = http.createServer(app);
 
